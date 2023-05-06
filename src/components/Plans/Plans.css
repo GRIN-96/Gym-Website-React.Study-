@@ -86,3 +86,15 @@
     top: 10rem;
     right: 0rem;
 }
+
+/* 모바일 화면 css */
+@media screen and (max-width : 768px) {
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .plans > :nth-child(2) {
+        transform: none;
+    }
+}
